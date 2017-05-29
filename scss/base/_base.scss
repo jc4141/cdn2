@@ -1,0 +1,214 @@
+/**
+ * BOOTSTRAP OVERRIDES
+ */
+* {
+  border-radius: 0 !important;
+}
+body {
+  @include text(18px, 300, $black, 26px);
+  font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: white;
+}
+
+
+/* CONTAINER */
+#block-system-main {
+  padding: 40px 40px 60px 40px;
+}
+.container {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+.container .row {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+/* TEXT */
+.region-content{
+  & h1 {
+    font-size: 48px;
+    line-height: 1.44;
+  }
+  & h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  & h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  & h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  & p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #4D4D4D;
+  }
+}
+.txt-center {
+  text-align: center;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-right {
+  text-align: right;
+}
+
+.region-content pre strong {
+  background: #FFFF00;
+}
+.region-content pre strong span {
+  color: $black !important;
+}
+
+
+
+/* LINKS */
+a:link, a:visited {
+  text-decoration: none;
+  color: #8C1D40;
+}
+a:hover, a:active {
+  text-decoration: none;
+  color: #d23153;
+}
+
+
+
+/* BUTTON */
+a.btn:link, a.btn:visited, .btn a:link, .btn a:visited {
+  text-decoration: none;
+  color: $black;
+}
+a.btn:hover, a.btn:active, .btn a:hover, .btn a:active {
+  text-decoration: none;
+  color: $black;
+}
+.btn-default {
+  color: #4D4D4D;
+  background-color: #ededed;
+  border-color: #989898;
+}
+.btn-default:hover, .btn-default:active {
+  color: $black;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #8C1D40;
+  border-color: #8C1D40;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:hover {
+  color: #fff !important;
+  background-color: #d23153;
+  border-color: #d23153;
+}
+.btn-warning {
+  color: #000 !important;
+  background-color: #ffbe23;
+  border-color: #ffbe23;
+}
+.btn-link {
+  font-weight: normal;
+  color: #8C1D40;
+  border-radius: 0;
+}
+.btn-link:hover, .btn-link:active {
+  color: #d23153;
+
+}
+
+
+
+/* TABLES */
+.table {
+  width: 100% !important;
+  border: none;
+  font-size: 14px;
+  background: #ffffff;
+  color: #4D4D4D;
+}
+.table th {
+  background: #414141;
+  color: #ffffff;
+  font-weight: normal;
+  text-align: inherit;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e8e8e8;
+}
+
+
+
+/* LABEL */
+.label {
+  line-height: 1.44;
+}
+.label-primary {
+  background-color: #8C1D40;
+}
+
+
+
+/* ALERT */
+.alert {
+  margin-bottom: 0;
+}
+
+
+
+/* NAV-TABS */
+.tabs--primary {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+
+
+/* NAV-PILLS */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #8C1D40;
+}
+.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+  color: #8C1D40;
+  background-color: #fff;
+}
+
+
+
+/* PANEL */
+.panel-primary {
+  border-color: #8C1D40;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #8C1D40;
+  border-color: #8C1D40;
+}
+
+
+
+/* BADGE */
+.badge {
+  background-color: #8C1D40;
+}
+
+
+
+/* IMAGES */
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.img-responsive {
+  display: inline;
+}

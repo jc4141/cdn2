@@ -1,0 +1,135 @@
+
+/* DEFAULTS SECTIONS */
+.page-header {
+    display:none;
+}
+.container {
+    width: 100%;
+    padding: 0;
+}
+.section {
+    padding: 0;
+}
+.section .row .row {
+    max-width: 1200px !important;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+.section .row .row .row {
+    padding: 0;
+}
+#block-system-main .row .row .row {
+    padding: 0;
+}
+.btn-editor {
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+}
+
+
+
+/* ------------------------------ */
+/* SECTION MAROON */
+.section-grey {
+    background: #e8e8e8;
+}
+
+
+
+/* ------------------------------ */
+/* SECTION MAROON */
+.section-maroon {
+    background: #8c1d40;
+    color: #ffffff;
+}
+.section-maroon p {
+    color:#ffffff;
+}
+
+
+
+/* ------------------------------ */
+/* SECTION DARK */
+.region-content .section-dark {
+    background:#4D4D4D;
+    color: #FFFFFF;
+}
+.region-content .section-dark p {
+    color: #FFFFFF;
+}
+
+
+
+/* ------------------------------ */
+/* SECTION BLACK */
+.region-content .section-black {
+    background:#000000;
+    color: #FFFFFF;
+}
+.region-content .section-black p {
+    color: #FFFFFF;
+}
+
+
+
+/* ------------------------------ */
+/* SECTION GOLD */
+.region-content .section-gold {
+    background: #FFC627;
+    color: $white;
+}
+
+
+
+/* ------------------------------ */
+/* COLLAPSE FEATURE */
+.region-content h5 {
+    font-size: 24px;
+    line-height: 1.44;
+    font-weight: bold;
+    border-top: 2px solid #e3e3e3;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.region-content h5 a {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #4D4D4D !important;
+    margin-top: 0;
+}
+.collapse-header {
+    background: url(/sites/all/themes/asu/img/icon-collapse-close.png) no-repeat 100% 50% !important;
+}
+.collapsed {
+    background: url(/sites/all/themes/asu/img/icon-collapse-open.png) no-repeat 100% 50% !important;
+}
+.panel-collapse blockquote {
+    padding: 0;
+    margin: 0 0 40px;
+    border-left: none;
+}
+
+
+
+/* ------------------------------ */
+/* CUSTOM SECTION FORMATTING */
+#block-views-sections-block .section-top-zero .row .row {
+    padding-top: 0;
+}
+#block-views-sections-block .section-bottom-zero .row .row {
+    padding-bottom: 0;
+}
+#block-views-sections-block .section-img-focus-top {
+    background-position: 50% 10% !important;
+}
+#block-views-sections-block .section-img-focus-bottom {
+    background-position: 50% 90% !important;
+}
+#block-views-sections-block .section-img-banner {
+    min-height: 300px;
+}
+#block-views-sections-block .section-width-80 .row .row {
+    max-width: 960px !important;
+}

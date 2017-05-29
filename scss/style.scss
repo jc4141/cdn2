@@ -1,0 +1,27 @@
+@import "variables";
+@import "mixins";
+@import "base/index";
+
+//@import "components/";
+/**
+* Place your custom styles here.
+*/
+
+
+
+/* ------------------------------ */
+/* EXTERNAL LINK ICON FOR TARGET BLANK */
+.region-content a[target="_blank"]:after {
+  font-family: 'FontAwesome';
+  content: " \f08e";
+}
+
+
+
+/* ------------------------------ */
+/* REMOVE EXTRA SPACING */
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold !important;
+}

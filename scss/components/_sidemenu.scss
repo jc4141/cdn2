@@ -1,0 +1,46 @@
+/* REMOVE FULL WIDTH SETTINGS IF THERE ARE ANY SIDEBARS */
+.sidebar-first #block-views-sections-block .section > .row,
+.two-sidebars #block-views-sections-block .section > .row  {
+    border-left: 2px #E3E3E3 solid !important;
+}
+.sidebar-second #block-views-sections-block .section > .row,
+.two-sidebars #block-views-sections-block .section > .row {
+    border-right: 2px #E3E3E3 solid !important;
+}
+
+
+
+/* FIX SUPERFISH SIDEMENU - USE VERTICAL WHITE THEME */
+.sf-menu.sf-style-white {
+    width: 100%;
+}
+.sf-menu.sf-style-white a {
+    border: none;
+    color: #9B9B9B;
+    padding-left: 10px;
+    font-weight: 300;
+}
+.sf-menu.sf-style-white a.active {
+    font-weight: bold;
+    color: #000000;
+}
+.sf-menu.sf-style-white ul a.active {
+    font-weight: normal;
+    color: #8A2041;
+}
+.sf-menu.sf-style-white ul:not(.sf-hidden) {
+    position: relative;
+    top: 0;
+    width: 100% !important;
+}
+.sf-menu.sf-style-white ul:not(.sf-hidden) a {
+    padding-left: 20px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+      aside {
+          display:none;
+      }
+}
